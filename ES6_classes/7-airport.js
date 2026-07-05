@@ -12,7 +12,7 @@ export default class Airport {
     return this._code;
   }
 
-  [Symbol.toPrimitive](hint) {
+  get [Symbol.toStringTag]() {
     return this._code;
   }
 }
