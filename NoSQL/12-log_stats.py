@@ -23,3 +23,7 @@ print("{} status check".format(
         "path": "/status"
     })
 ))
+
+
+if __name__ == "__main__":
+    main()
